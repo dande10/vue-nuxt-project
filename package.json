@@ -1,0 +1,27 @@
+{
+  "name": "grid-layout-component",
+  "version": "1.0.0",
+  "description": "My luminous Nuxt.js project",
+  "author": "DandeVasanthi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "font-awesome": "^4.7.0",
+    "jest": "^24.1.0",
+    "ts-jest": "^25.0.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}
