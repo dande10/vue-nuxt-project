@@ -1,4 +1,5 @@
-export default {
+import { NuxtConfiguration } from '@nuxt/core';
+const config: NuxtConfiguration = {
   mode: "spa",
   /*
    ** Headers of the page
@@ -27,7 +28,9 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    // { src: '~plugins/vuedraggable.ts', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -43,6 +46,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config: any, ctx: any) {}
   }
 };
+export default config;
