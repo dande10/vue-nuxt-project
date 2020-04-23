@@ -29,7 +29,6 @@ const config: NuxtConfiguration = {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    // { src: '~plugins/vuedraggable.ts', ssr: false },
     {src: '~/plugins/vue-grid', ssr: false},
   ],
   /*
